@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Application</title>
+</head>
+<body>
+    <!-- Form to add or edit data -->
+<form id="dataForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <label for="age">Age:</label>
+    <input type="number" id="age" required>
+    <button type="submit" id="submitBtn">Submit</button>
+</form>
+
+<!-- Placeholder for displaying existing data -->
+<div id="dataContainer">
+    <!-- Data will be dynamically added here -->
+</div>
+
+<!-- Search bar -->
+<input type="text" id="searchInput" placeholder="Search by name...">
+<button type="button" id="searchBtn">Search</button>
+</body>
+<script src="frontend.js"></script>
+</html>
